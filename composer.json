@@ -1,0 +1,28 @@
+{
+  "name": "maniakalen/yii2-auth",
+  "description": "Yii2 Auth rbac module",
+  "version": "1.0.0",
+  "keywords": [
+    "PHP", "Yii2", "rbac", "auth"
+  ],
+  "license": "NPOSL-3.0",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Petar Ivanov"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2" : ">=2.0.12"
+  },
+  "autoload": {
+    "psr-0": {
+      "maniakalen\\": "src/"
+    }
+  },
+  "archive": {
+    "exclude": ["vendor", "build.xml", "composer.lock"]
+  }
+}

@@ -1,0 +1,11 @@
+#modal_update .modal-dialog {
+    z-index: 1041;
+}
+
+#modal_update .modal-content {
+    padding: 5px 20px;
+}
+
+.spinner_width {
+    width: 140px !important;
+}
